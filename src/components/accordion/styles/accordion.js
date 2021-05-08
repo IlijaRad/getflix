@@ -8,7 +8,9 @@ export const Container = styled.div`
 export const Item = styled.div`
     color: white;
     margin-bottom: 10px;
-    max-width: 605px;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
     &:first-of-type{
         margin-top: 3em;
     }
@@ -75,3 +77,4 @@ export const Title = styled.h1`
         font-size: 35px;
     }
 `;
+

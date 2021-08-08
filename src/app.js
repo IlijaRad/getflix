@@ -11,12 +11,10 @@ export default function App() {
     
     return (
         <Router>
-
             <IsUserRedirect
                 user={user}
                 loggedInPath={ROUTES.BROWSE}
-                path={ROUTES.SIGN_IN}
-                
+                path={ROUTES.SIGN_IN} 
             >
                 <Signin />
             </IsUserRedirect>
@@ -24,8 +22,7 @@ export default function App() {
             <IsUserRedirect
                 user={user}
                 loggedInPath={ROUTES.BROWSE}
-                path={ROUTES.SIGN_UP}
-                
+                path={ROUTES.SIGN_UP}  
             >
                 <Signup />
             </IsUserRedirect>

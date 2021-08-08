@@ -1,6 +1,5 @@
 export function seedDatabase(firebase) {
     function getUUID() {
-        // eslint gets funny about bitwise
         /* eslint-disable */
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
             const piece = (Math.random() * 16) | 0;
